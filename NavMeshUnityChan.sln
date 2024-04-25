@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "com.unity.animations.springbone.editor", "com.unity.animations.springbone.editor.csproj", "{3FA79747-24EC-BE7E-8403-4D3C18A4BCD3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "com.unity.animations.springbone", "com.unity.animations.springbone.csproj", "{133C5AA2-70E6-D12F-744A-6F7D901C4A6E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.Toonshader", "Unity.Toonshader.csproj", "{F23DA41C-98B7-D79C-E521-696C06F7F4EE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.Toonshader.Editor", "Unity.Toonshader.Editor.csproj", "{8FDFCD00-9902-2DB1-13B3-D61A9DDE2D73}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{AB6E5B1D-CE34-1114-58F5-BE3D213B9C96}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-Editor", "Assembly-CSharp-Editor.csproj", "{4327C321-F221-6FED-C758-9BB33096CF5A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3FA79747-24EC-BE7E-8403-4D3C18A4BCD3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3FA79747-24EC-BE7E-8403-4D3C18A4BCD3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3FA79747-24EC-BE7E-8403-4D3C18A4BCD3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3FA79747-24EC-BE7E-8403-4D3C18A4BCD3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{133C5AA2-70E6-D12F-744A-6F7D901C4A6E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{133C5AA2-70E6-D12F-744A-6F7D901C4A6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{133C5AA2-70E6-D12F-744A-6F7D901C4A6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{133C5AA2-70E6-D12F-744A-6F7D901C4A6E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F23DA41C-98B7-D79C-E521-696C06F7F4EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F23DA41C-98B7-D79C-E521-696C06F7F4EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F23DA41C-98B7-D79C-E521-696C06F7F4EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F23DA41C-98B7-D79C-E521-696C06F7F4EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8FDFCD00-9902-2DB1-13B3-D61A9DDE2D73}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8FDFCD00-9902-2DB1-13B3-D61A9DDE2D73}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8FDFCD00-9902-2DB1-13B3-D61A9DDE2D73}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8FDFCD00-9902-2DB1-13B3-D61A9DDE2D73}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB6E5B1D-CE34-1114-58F5-BE3D213B9C96}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB6E5B1D-CE34-1114-58F5-BE3D213B9C96}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB6E5B1D-CE34-1114-58F5-BE3D213B9C96}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB6E5B1D-CE34-1114-58F5-BE3D213B9C96}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4327C321-F221-6FED-C758-9BB33096CF5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4327C321-F221-6FED-C758-9BB33096CF5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4327C321-F221-6FED-C758-9BB33096CF5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4327C321-F221-6FED-C758-9BB33096CF5A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
