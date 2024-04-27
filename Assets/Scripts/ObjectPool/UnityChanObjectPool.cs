@@ -1,3 +1,4 @@
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -20,20 +21,21 @@ public class UnityChanObjectPool : MonoBehaviour
 
     private void Awake()
     {
-        Init();
+        StartCoroutine(InitUnityChan());
     }
 
     #endregion
 
     #region -- 方法參考區 --
 
-    private void Init()
+    IEnumerator InitUnityChan()
     {
         for (int i = 0; i < initailSize; i++)
         {
             GameObject go = Instantiate(unityChan, this.transform);
             unityChanObjectPool.Enqueue(go);
-            go.SetActive(false);
+
+            yield return new WaitForSeconds(1);
         }
     }
 

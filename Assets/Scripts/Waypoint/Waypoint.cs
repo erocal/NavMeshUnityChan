@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using UnityEngine;
 
 public class Waypoint : MonoBehaviour
@@ -8,6 +9,9 @@ public class Waypoint : MonoBehaviour
     public Waypoint nextWaypoint;
 
     [Range(0f, 5f)] public float width = 1f;
+
+    public List<Waypoint> branches;
+    [Range(0f, 1f)] public float brancheRatio = 0.5f;
 
     #endregion
 
