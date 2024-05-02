@@ -131,7 +131,7 @@
       }
     },
     "com.unity.springbone": {
-      "version": "file:D:/Program Files/UnityProject/UnityChanSSU_URP-release-1.0.5/Packages/UnityChanSpringBone-release-1.1",
+      "version": "file:D:/安裝檔/UnityChanSSU_URP-release-1.0.5/Packages/UnityChanSpringBone-release-1.1",
       "depth": 0,
       "source": "local",
       "dependencies": {}
@@ -169,7 +169,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.toonshader": {
-      "version": "file:D:/Program Files/UnityProject/com.unity.toonshader-development-v1/com.unity.toonshader",
+      "version": "file:D:/安裝檔/com.unity.toonshader-development-v1/com.unity.toonshader",
       "depth": 0,
       "source": "local",
       "dependencies": {

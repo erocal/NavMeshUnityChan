@@ -2,6 +2,7 @@
 
 public class WaypointNavigator : MonoBehaviour
 {
+
     #region -- 資源參考區 --
 
     [SerializeField] private UnityChanController unityChanController;
@@ -149,4 +150,5 @@ public class WaypointNavigator : MonoBehaviour
     }
 
     #endregion
+
 }

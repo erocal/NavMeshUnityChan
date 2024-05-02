@@ -2,6 +2,7 @@
 
 public class InputController : MonoBehaviour
 {
+
     #region -- 變數參考區 --
 
     /// <summary>
@@ -20,6 +21,12 @@ public class InputController : MonoBehaviour
     #endregion
 
     #region -- 初始化/運作 --
+
+    private void Start()
+    {
+        //允許多點觸碰
+        Input.multiTouchEnabled = true;
+    }
 
     private void Update()
     {
@@ -41,6 +48,21 @@ public class InputController : MonoBehaviour
     /// </summary>
     void MouseInput()
     {
+        //紀錄滑鼠左鍵的移動距離
+        float mx = Input.GetAxis("Mouse X");
+        float my = Input.GetAxis("Mouse Y");
+        float speed = 6.0f;
+
+        if (mx != 0 || my != 0)
+        {
+            //滑鼠左鍵
+            if (Input.GetMouseButton(0))
+            {
+                //移動攝影機位置
+                Camera.main.transform.Translate(new Vector3(-mx * Time.deltaTime * speed, -my * Time.deltaTime * speed, 0));
+            }
+        }
+
         if (GetLeftMouseClickDown())
         {
             touchScreenPos = new Vector2(Input.mousePosition.x, Input.mousePosition.y);
@@ -53,10 +75,66 @@ public class InputController : MonoBehaviour
             handDirection = HandDirection(touchScreenPos, pos);
 
             if (touchScreenPos == pos)
-                Debug.Log("Click");
+                Log.Info("Click");
             else
                 Debug.Log($"handDirection: {handDirection}");
         }
+    }
+
+    /// <summary>
+    /// 是否按下滑鼠左鍵
+    /// </summary>
+    public bool GetLeftMouseClickDown()
+    {
+        return Input.GetMouseButtonDown(LeftMouseButton);
+    }
+
+    /// <summary>
+    /// 是否放開滑鼠左鍵
+    /// </summary>
+    public bool GetLeftMouseClickUp()
+    {
+        return Input.GetMouseButtonUp(LeftMouseButton);
+    }
+
+    /// <summary>
+    /// 判斷手滑的方向
+    /// </summary>
+    /// <param name="StartPos">一開始觸碰的點</param>
+    /// <param name="EndPos">手指離開的點</param>
+    /// <returns></returns>
+    DirectionDefine.Direction HandDirection(Vector2 StartPos, Vector2 EndPos)
+    {
+
+        //手指水平移動
+        if (Mathf.Abs(StartPos.x - EndPos.x) > Mathf.Abs(StartPos.y - EndPos.y))
+        {
+            if (StartPos.x > EndPos.x)
+            {
+                //手指向左滑動
+                handDirection = DirectionDefine.Direction.Left;
+            }
+            else
+            {
+                //手指向右滑動
+                handDirection = DirectionDefine.Direction.Right;
+            }
+        }
+        else if (Mathf.Abs(StartPos.x - EndPos.x) < Mathf.Abs(StartPos.y - EndPos.y))
+        {
+            if (touchScreenPos.y > EndPos.y)
+            {
+                //手指向下滑動
+                handDirection = DirectionDefine.Direction.Down;
+            }
+            else
+            {
+                //手指向上滑動
+                handDirection = DirectionDefine.Direction.Up;
+            }
+        }
+        else handDirection = DirectionDefine.Direction.None;
+        return handDirection;
     }
 
     /// <summary>
@@ -176,61 +254,6 @@ public class InputController : MonoBehaviour
         return false;
     }
 
-    /// <summary>
-    /// 是否按下滑鼠左鍵
-    /// </summary>
-    public bool GetLeftMouseClickDown()
-    {
-        return Input.GetMouseButtonDown(LeftMouseButton);
-    }
-
-    /// <summary>
-    /// 是否放開滑鼠左鍵
-    /// </summary>
-    public bool GetLeftMouseClickUp()
-    {
-        return Input.GetMouseButtonUp(LeftMouseButton);
-    }
-
-    /// <summary>
-    /// 判斷手滑的方向
-    /// </summary>
-    /// <param name="StartPos">一開始觸碰的點</param>
-    /// <param name="EndPos">手指離開的點</param>
-    /// <returns></returns>
-    DirectionDefine.Direction HandDirection(Vector2 StartPos, Vector2 EndPos)
-    {
-
-        //手指水平移動
-        if (Mathf.Abs(StartPos.x - EndPos.x) > Mathf.Abs(StartPos.y - EndPos.y))
-        {
-            if (StartPos.x > EndPos.x)
-            {
-                //手指向左滑動
-                handDirection = DirectionDefine.Direction.Left;
-            }
-            else
-            {
-                //手指向右滑動
-                handDirection = DirectionDefine.Direction.Right;
-            }
-        }
-        else if (Mathf.Abs(StartPos.x - EndPos.x) < Mathf.Abs(StartPos.y - EndPos.y))
-        {
-            if (touchScreenPos.y > EndPos.y)
-            {
-                //手指向下滑動
-                handDirection = DirectionDefine.Direction.Down;
-            }
-            else
-            {
-                //手指向上滑動
-                handDirection = DirectionDefine.Direction.Up;
-            }
-        }
-        else handDirection = DirectionDefine.Direction.None;
-        return handDirection;
-    }
-
     #endregion
+
 }
