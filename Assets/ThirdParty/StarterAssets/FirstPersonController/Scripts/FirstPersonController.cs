@@ -44,11 +44,11 @@ namespace StarterAssets
 		public LayerMask GroundLayers;
 
 		[Header("Cinemachine")]
-		[Tooltip("The follow target set in the Cinemachine Virtual Camera that the camera will follow")]
+		[Tooltip("The follow target set in the Cinemachine Virtual Camera that the mainCamera will follow")]
 		public GameObject CinemachineCameraTarget;
-		[Tooltip("How far in degrees can you move the camera up")]
+		[Tooltip("How far in degrees can you move the mainCamera up")]
 		public float TopClamp = 90.0f;
-		[Tooltip("How far in degrees can you move the camera down")]
+		[Tooltip("How far in degrees can you move the mainCamera down")]
 		public float BottomClamp = -90.0f;
 
 		// cinemachine
@@ -88,7 +88,7 @@ namespace StarterAssets
 
 		private void Awake()
 		{
-			// get a reference to our main camera
+			// get a reference to our main mainCamera
 			if (_mainCamera == null)
 			{
 				_mainCamera = GameObject.FindGameObjectWithTag("MainCamera");
@@ -143,7 +143,7 @@ namespace StarterAssets
 				// clamp our pitch rotation
 				_cinemachineTargetPitch = ClampAngle(_cinemachineTargetPitch, BottomClamp, TopClamp);
 
-				// Update Cinemachine camera target pitch
+				// Update Cinemachine mainCamera target pitch
 				CinemachineCameraTarget.transform.localRotation = Quaternion.Euler(_cinemachineTargetPitch, 0.0f, 0.0f);
 
 				// rotate the player left and right

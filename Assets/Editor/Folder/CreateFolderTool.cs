@@ -1,4 +1,4 @@
-using System.IO;
+ï»¿using System.IO;
 using UnityEditor;
 using UnityEngine;
 
@@ -19,7 +19,7 @@ public class CreateFolderTool : EditorWindow
         CreateThirdPartyFolder();
 
     }
-
+    
     [MenuItem("Tools/Create Folder/Editor")]
     static void CreateEditorFolder()
     {
@@ -28,9 +28,22 @@ public class CreateFolderTool : EditorWindow
         if (!Directory.Exists(folderPath))
         {
             Directory.CreateDirectory(folderPath);
-            Debug.Log("Editor¤å¥ó§¨¤w³Ð«Ø¡A¸ô®| : " + folderPath);
+            Debug.Log("Editoræ–‡ä»¶å¤¾å·²å‰µå»ºï¼Œè·¯å¾‘ : " + folderPath);
         }
-        else Debug.LogError("Editor¤å¥ó§¨¤w¦s¦b¡A¸ô®| : " + folderPath);
+        else Debug.LogError("Editoræ–‡ä»¶å¤¾å·²å­˜åœ¨ï¼Œè·¯å¾‘ : " + folderPath);
+    }
+
+    [MenuItem("Tools/Create Folder/Image")]
+    static void CreateImageFolder()
+    {
+        string folderPath = Path.Combine(Application.dataPath, "Image");
+
+        if (!Directory.Exists(folderPath))
+        {
+            Directory.CreateDirectory(folderPath);
+            Debug.Log("Imageæ–‡ä»¶å¤¾å·²å‰µå»ºï¼Œè·¯å¾‘ : " + folderPath);
+        }
+        else Debug.LogError("Imageæ–‡ä»¶å¤¾å·²å­˜åœ¨ï¼Œè·¯å¾‘ : " + folderPath);
     }
 
     [MenuItem("Tools/Create Folder/Materials")]
@@ -41,9 +54,9 @@ public class CreateFolderTool : EditorWindow
         if (!Directory.Exists(folderPath))
         {
             Directory.CreateDirectory(folderPath);
-            Debug.Log("Materials¤å¥ó§¨¤w³Ð«Ø¡A¸ô®| : " + folderPath);
+            Debug.Log("Materialsæ–‡ä»¶å¤¾å·²å‰µå»ºï¼Œè·¯å¾‘ : " + folderPath);
         }
-        else Debug.LogError("Materials¤å¥ó§¨¤w¦s¦b¡A¸ô®| : " + folderPath);
+        else Debug.LogError("Materialsæ–‡ä»¶å¤¾å·²å­˜åœ¨ï¼Œè·¯å¾‘ : " + folderPath);
     }
 
     [MenuItem("Tools/Create Folder/Music")]
@@ -54,9 +67,9 @@ public class CreateFolderTool : EditorWindow
         if (!Directory.Exists(folderPath))
         {
             Directory.CreateDirectory(folderPath);
-            Debug.Log("Music¤å¥ó§¨¤w³Ð«Ø¡A¸ô®| : " + folderPath);
+            Debug.Log("Musicæ–‡ä»¶å¤¾å·²å‰µå»ºï¼Œè·¯å¾‘ : " + folderPath);
         }
-        else Debug.LogError("Music¤å¥ó§¨¤w¦s¦b¡A¸ô®| : " + folderPath);
+        else Debug.LogError("Musicæ–‡ä»¶å¤¾å·²å­˜åœ¨ï¼Œè·¯å¾‘ : " + folderPath);
     }
 
     [MenuItem("Tools/Create Folder/Prefabs")]
@@ -67,9 +80,9 @@ public class CreateFolderTool : EditorWindow
         if (!Directory.Exists(folderPath))
         {
             Directory.CreateDirectory(folderPath);
-            Debug.Log("Prefabs¤å¥ó§¨¤w³Ð«Ø¡A¸ô®| : " + folderPath);
+            Debug.Log("Prefabsæ–‡ä»¶å¤¾å·²å‰µå»ºï¼Œè·¯å¾‘ : " + folderPath);
         }
-        else Debug.LogError("Prefabs¤å¥ó§¨¤w¦s¦b¡A¸ô®| : " + folderPath);
+        else Debug.LogError("Prefabsæ–‡ä»¶å¤¾å·²å­˜åœ¨ï¼Œè·¯å¾‘ : " + folderPath);
     }
 
     [MenuItem("Tools/Create Folder/Scenes")]
@@ -80,9 +93,9 @@ public class CreateFolderTool : EditorWindow
         if (!Directory.Exists(folderPath))
         {
             Directory.CreateDirectory(folderPath);
-            Debug.Log("Scenes¤å¥ó§¨¤w³Ð«Ø¡A¸ô®| : " + folderPath);
+            Debug.Log("Scenesæ–‡ä»¶å¤¾å·²å‰µå»ºï¼Œè·¯å¾‘ : " + folderPath);
         }
-        else Debug.LogError("Scenes¤å¥ó§¨¤w¦s¦b¡A¸ô®| : " + folderPath);
+        else Debug.LogError("Scenesæ–‡ä»¶å¤¾å·²å­˜åœ¨ï¼Œè·¯å¾‘ : " + folderPath);
     }
 
     [MenuItem("Tools/Create Folder/Scripts")]
@@ -93,9 +106,9 @@ public class CreateFolderTool : EditorWindow
         if (!Directory.Exists(folderPath))
         {
             Directory.CreateDirectory(folderPath);
-            Debug.Log("Scripts¤å¥ó§¨¤w³Ð«Ø¡A¸ô®| : " + folderPath);
+            Debug.Log("Scriptsæ–‡ä»¶å¤¾å·²å‰µå»ºï¼Œè·¯å¾‘ : " + folderPath);
         }
-        else Debug.LogError("Scripts¤å¥ó§¨¤w¦s¦b¡A¸ô®| : " + folderPath);
+        else Debug.LogError("Scriptsæ–‡ä»¶å¤¾å·²å­˜åœ¨ï¼Œè·¯å¾‘ : " + folderPath);
     }
 
     [MenuItem("Tools/Create Folder/Shader")]
@@ -106,9 +119,9 @@ public class CreateFolderTool : EditorWindow
         if (!Directory.Exists(folderPath))
         {
             Directory.CreateDirectory(folderPath);
-            Debug.Log("Shader¤å¥ó§¨¤w³Ð«Ø¡A¸ô®| : " + folderPath);
+            Debug.Log("Shaderæ–‡ä»¶å¤¾å·²å‰µå»ºï¼Œè·¯å¾‘ : " + folderPath);
         }
-        else Debug.LogError("Shader¤å¥ó§¨¤w¦s¦b¡A¸ô®| : " + folderPath);
+        else Debug.LogError("Shaderæ–‡ä»¶å¤¾å·²å­˜åœ¨ï¼Œè·¯å¾‘ : " + folderPath);
     }
 
     [MenuItem("Tools/Create Folder/ThirdParty")]
@@ -119,9 +132,9 @@ public class CreateFolderTool : EditorWindow
         if (!Directory.Exists(folderPath))
         {
             Directory.CreateDirectory(folderPath);
-            Debug.Log("ThirdParty¤å¥ó§¨¤w³Ð«Ø¡A¸ô®| : " + folderPath);
+            Debug.Log("ThirdPartyæ–‡ä»¶å¤¾å·²å‰µå»ºï¼Œè·¯å¾‘ : " + folderPath);
         }
-        else Debug.LogError("ThirdParty¤å¥ó§¨¤w¦s¦b¡A¸ô®| : " + folderPath);
+        else Debug.LogError("ThirdPartyæ–‡ä»¶å¤¾å·²å­˜åœ¨ï¼Œè·¯å¾‘ : " + folderPath);
     }
 
 }

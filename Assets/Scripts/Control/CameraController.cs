@@ -10,7 +10,7 @@ public class CameraController : MonoBehaviour
 
     #region -- 變數參考區 --
 
-    Camera camera;
+    Camera mainCamera;
 
     #endregion
 
@@ -19,8 +19,8 @@ public class CameraController : MonoBehaviour
     private void Awake()
     {
 
-        camera = Camera.main;
-        InitTopView();
+        mainCamera = Camera.main;
+        InitTopViewPosition();
 
     }
 
@@ -34,18 +34,27 @@ public class CameraController : MonoBehaviour
     #region -- 方法參考區 --
 
     /// <summary>
-    /// 初始化相機從上方俯視
+    /// 初始化主相機從上方俯視的位置
     /// </summary>
-    private void InitTopView()
+    private void InitTopViewPosition()
     {
 
-        if (topView != null && camera != null)
+        if (topView != null && mainCamera != null)
         {
-            camera.transform.position = topView.position;
-            camera.transform.rotation = topView.rotation;
+            mainCamera.transform.position = topView.position;
+            mainCamera.transform.rotation = topView.rotation;
         }
 
     }
+
+    #region -- Btn --
+
+    public void OnTopView()
+    {
+        mainCamera.depth = 0;
+    }
+
+    #endregion
 
     #endregion
 }

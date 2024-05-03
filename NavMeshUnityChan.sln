@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.Toonshader.Editor", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{AB6E5B1D-CE34-1114-58F5-BE3D213B9C96}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-firstpass", "Assembly-CSharp-firstpass.csproj", "{047CE01F-422F-6008-99ED-CFE140153E61}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-Editor", "Assembly-CSharp-Editor.csproj", "{4327C321-F221-6FED-C758-9BB33096CF5A}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test", "Test.csproj", "{08D52F6A-1691-1D7D-E39E-561399C075D8}"
@@ -41,6 +43,10 @@ Global
 		{AB6E5B1D-CE34-1114-58F5-BE3D213B9C96}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AB6E5B1D-CE34-1114-58F5-BE3D213B9C96}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AB6E5B1D-CE34-1114-58F5-BE3D213B9C96}.Release|Any CPU.Build.0 = Release|Any CPU
+		{047CE01F-422F-6008-99ED-CFE140153E61}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{047CE01F-422F-6008-99ED-CFE140153E61}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{047CE01F-422F-6008-99ED-CFE140153E61}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{047CE01F-422F-6008-99ED-CFE140153E61}.Release|Any CPU.Build.0 = Release|Any CPU
 		{4327C321-F221-6FED-C758-9BB33096CF5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{4327C321-F221-6FED-C758-9BB33096CF5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4327C321-F221-6FED-C758-9BB33096CF5A}.Release|Any CPU.ActiveCfg = Release|Any CPU

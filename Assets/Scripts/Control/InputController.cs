@@ -77,7 +77,7 @@ public class InputController : MonoBehaviour
             if (touchScreenPos == pos)
                 Log.Info("Click");
             else
-                Debug.Log($"handDirection: {handDirection}");
+                Log.Info($"handDirection: {handDirection}");
         }
     }
 
@@ -152,7 +152,7 @@ public class InputController : MonoBehaviour
             //開始觸碰
             if (Input.touches[0].phase == TouchPhase.Began)
             {
-                Debug.Log("Began");
+                Log.Info("Began");
                 //紀錄觸碰位置
                 touchScreenPos = Input.touches[0].position;
 
@@ -160,18 +160,18 @@ public class InputController : MonoBehaviour
             }
             else if (Input.touches[0].phase == TouchPhase.Moved)
             {
-                Debug.Log("Moved");
+                Log.Info("Moved");
             }
 
 
             //手指離開螢幕
             if (Input.touches[0].phase == TouchPhase.Ended || Input.touches[0].phase == TouchPhase.Canceled)
             {
-                Debug.Log("Ended");
+                Log.Info("Ended");
                 Vector2 pos = Input.touches[0].position;
 
                 DirectionDefine.Direction handDirection = HandDirection(touchScreenPos, pos);
-                Debug.Log($"handDirection: {handDirection}");
+                Log.Info($"handDirection: {handDirection}");
             }
             //攝影機縮放，如果1個手指以上觸碰螢幕
         }
