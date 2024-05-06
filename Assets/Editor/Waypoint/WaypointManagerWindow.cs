@@ -1,4 +1,4 @@
-using UnityEditor;
+ï»¿using UnityEditor;
 using UnityEngine;
 
 public class WaypointManagerWindow : EditorWindow
@@ -20,7 +20,7 @@ public class WaypointManagerWindow : EditorWindow
 
         if (waypointRoot == null)
         {
-            EditorGUILayout.HelpBox("¥Àª«¥ó¥²¶·³Q¿ï¨ú¡A½Ğ¿ï¨ú¤@­Ó¥Àª«¥ó", MessageType.Warning);
+            EditorGUILayout.HelpBox("æ¯ç‰©ä»¶å¿…é ˆè¢«é¸å–ï¼Œè«‹é¸å–ä¸€å€‹æ¯ç‰©ä»¶", MessageType.Warning);
         }
         else
         {
@@ -74,7 +74,7 @@ public class WaypointManagerWindow : EditorWindow
             waypoint.previousWaypoint = waypointRoot.GetChild(waypointRoot.childCount - 2).GetComponent<Waypoint>();
             waypoint.previousWaypoint.nextWaypoint = waypoint;
 
-            // ©ñ¸mwaypoint¨ì¤W¦¸ªº¦ì¸m
+            // æ”¾ç½®waypointåˆ°ä¸Šæ¬¡çš„ä½ç½®
             waypoint.transform.position = waypoint.previousWaypoint.transform.position;
             waypoint.transform.forward = waypoint.previousWaypoint.transform.forward;
         }

@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UIElements;
 
 public class UnityChanObjectPool : MonoBehaviour
 {
@@ -13,7 +14,17 @@ public class UnityChanObjectPool : MonoBehaviour
 
     #region -- 變數參考區 --
 
+    #region -- 常數 --
+
+    private Vector3 spawnPoistion = new(-6.64f, 9.75f, 11.017f);
+
+    #endregion
+
+    [Tooltip("物件池中的UnityChan!")]
     private Queue<GameObject> unityChanObjectPool = new Queue<GameObject>();
+
+    [Tooltip("活動中的UnityChan!")]
+    private Queue<GameObject> activeUnityChanPool = new Queue<GameObject>();
 
     #endregion
 
@@ -47,21 +58,39 @@ public class UnityChanObjectPool : MonoBehaviour
             reuse.transform.position = position;
             reuse.transform.rotation = rotation;
             reuse.SetActive(true);
+            reuse.GetComponent<WaypointNavigator>().Awake();
+            activeUnityChanPool.Enqueue(reuse);
         }
         else
         {
             GameObject go = Instantiate(unityChan, this.transform);
             go.transform.position = position;
             go.transform.rotation = rotation;
+            activeUnityChanPool.Enqueue(go);
         }
     }
-
 
     public void Recovery(GameObject recovery)
     {
         unityChanObjectPool.Enqueue(recovery);
         recovery.SetActive(false);
     }
+
+    #region -- btn --
+
+    public void OnCreateCharacter()
+    {
+
+        ReUse(spawnPoistion, Quaternion.identity);
+
+    }
+
+    public void OnRemoveCharacter()
+    {
+        if (activeUnityChanPool.Count > 0) Recovery(activeUnityChanPool.Dequeue());
+    }
+
+    #endregion
 
     #endregion
 }

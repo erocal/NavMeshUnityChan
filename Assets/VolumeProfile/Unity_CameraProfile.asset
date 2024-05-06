@@ -13,36 +13,7 @@ MonoBehaviour:
   m_Name: Unity_CameraProfile
   m_EditorClassIdentifier: 
   components:
-  - {fileID: 3502666848365322391}
   - {fileID: 6424933610327374501}
---- !u!114 &3502666848365322391
-MonoBehaviour:
-  m_ObjectHideFlags: 3
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 899c54efeace73346a0a16faa3afe726, type: 3}
-  m_Name: Vignette
-  m_EditorClassIdentifier: 
-  active: 1
-  color:
-    m_OverrideState: 1
-    m_Value: {r: 0.3207547, g: 0.3207547, b: 0.3207547, a: 1}
-  center:
-    m_OverrideState: 1
-    m_Value: {x: 0.6, y: 0.4}
-  intensity:
-    m_OverrideState: 1
-    m_Value: 0.5
-  smoothness:
-    m_OverrideState: 1
-    m_Value: 1
-  rounded:
-    m_OverrideState: 0
-    m_Value: 0
 --- !u!114 &6424933610327374501
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -58,4 +29,4 @@ MonoBehaviour:
   active: 1
   intensity:
     m_OverrideState: 1
-    m_Value: 0.3
+    m_Value: 0.15

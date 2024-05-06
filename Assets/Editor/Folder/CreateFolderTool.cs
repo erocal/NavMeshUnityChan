@@ -10,6 +10,8 @@ public class CreateFolderTool : EditorWindow
     {
 
         CreateEditorFolder();
+        CreateImageFolder();
+        CreateLightingFolder();
         CreateMaterialsFolder();
         CreateMusicFolder();
         CreatePrefabsFolder();
@@ -44,6 +46,19 @@ public class CreateFolderTool : EditorWindow
             Debug.Log("Image文件夾已創建，路徑 : " + folderPath);
         }
         else Debug.LogError("Image文件夾已存在，路徑 : " + folderPath);
+    }
+
+    [MenuItem("Tools/Create Folder/Lighting")]
+    static void CreateLightingFolder()
+    {
+        string folderPath = Path.Combine(Application.dataPath, "Lighting");
+
+        if (!Directory.Exists(folderPath))
+        {
+            Directory.CreateDirectory(folderPath);
+            Debug.Log("Lighting文件夾已創建，路徑 : " + folderPath);
+        }
+        else Debug.LogError("Lighting文件夾已存在，路徑 : " + folderPath);
     }
 
     [MenuItem("Tools/Create Folder/Materials")]

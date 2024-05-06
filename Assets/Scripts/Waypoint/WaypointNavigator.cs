@@ -20,7 +20,7 @@ public class WaypointNavigator : MonoBehaviour
 
     #region -- 初始化/運作 --
 
-    private void Awake()
+    public void Awake()
     {
 
         RandomChangeDirection();

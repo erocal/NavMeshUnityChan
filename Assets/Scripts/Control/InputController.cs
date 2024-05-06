@@ -48,20 +48,6 @@ public class InputController : MonoBehaviour
     /// </summary>
     void MouseInput()
     {
-        //紀錄滑鼠左鍵的移動距離
-        float mx = Input.GetAxis("Mouse X");
-        float my = Input.GetAxis("Mouse Y");
-        float speed = 6.0f;
-
-        if (mx != 0 || my != 0)
-        {
-            //滑鼠左鍵
-            if (Input.GetMouseButton(0))
-            {
-                //移動攝影機位置
-                Camera.main.transform.Translate(new Vector3(-mx * Time.deltaTime * speed, -my * Time.deltaTime * speed, 0));
-            }
-        }
 
         if (GetLeftMouseClickDown())
         {
@@ -79,6 +65,7 @@ public class InputController : MonoBehaviour
             else
                 Log.Info($"handDirection: {handDirection}");
         }
+
     }
 
     /// <summary>
