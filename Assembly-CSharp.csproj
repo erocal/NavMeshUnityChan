@@ -59,8 +59,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\SecurityCamera\SecurityCameraRotate.cs" />
+    <Compile Include="Assets\Scripts\Core\CanvasGroupExtension.cs" />
     <Compile Include="Assets\ThirdParty\unity-chan!\Unity-chan! Model\Scripts\FaceUpdate.cs" />
     <Compile Include="Assets\Scripts\UI\UIMainFunction.cs" />
+    <Compile Include="Assets\Scripts\UI\MusicSlider.cs" />
     <Compile Include="Assets\Scripts\Control\UnityChanController.cs" />
     <Compile Include="Assets\Scripts\Waypoint\Waypoint.cs" />
     <Compile Include="Assets\Scripts\ObjectPool\UnityChanObjectPool.cs" />
@@ -100,6 +102,7 @@
   <ItemGroup>
     <None Include="Assets\ThirdParty\unity-chan!\Unity-chan! Model\Art\UnityChanShader\Shader\Unitychan_chara_fuku.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
+    <None Include="Assets\Shader\MusicSlider.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
     <None Include="Assets\ThirdParty\unity-chan!\Unity-chan! Model\Art\UnityChanShader\Shader\Unitychan_chara_akarami_blend.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
