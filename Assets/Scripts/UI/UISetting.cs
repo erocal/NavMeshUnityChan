@@ -9,16 +9,18 @@ public class UISetting : MonoBehaviour
 
 	[Header("RectTransform")]
 	[SerializeField] private RectTransform RectTransform_BtnSetting;
+    [Header("CanvasGroup")]
+    [SerializeField] private CanvasGroup CanvasGroup_Setting;
 
-	#endregion
-	
-	#region -- 變數參考區 --
+    #endregion
 
-	#endregion
-	
+    #region -- 變數參考區 --
+
+    #endregion
+
     #region -- 初始化/運作 --
 
-	private void Awake()
+    private void Awake()
 	{
 		
 	}
@@ -69,8 +71,17 @@ public class UISetting : MonoBehaviour
 	{
 
 		RotateSettingIcon();
+        CanvasGroup_Setting.SetEnable(true);
 
-	}
+    }
+
+    public void OnClose()
+    {
+
+        RotateSettingIcon();
+        CanvasGroup_Setting.SetEnable(false);
+
+    }
 
     #endregion
 

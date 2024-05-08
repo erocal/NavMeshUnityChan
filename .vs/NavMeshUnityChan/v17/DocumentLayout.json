@@ -3,32 +3,20 @@
   "WorkspaceRootPath": "D:\\NavMeshUnityChan\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{AB6E5B1D-CE34-1114-58F5-BE3D213B9C96}|Assembly-CSharp.csproj|d:\\navmeshunitychan\\assets\\scripts\\ui\\musicslider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AB6E5B1D-CE34-1114-58F5-BE3D213B9C96}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\musicslider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AB6E5B1D-CE34-1114-58F5-BE3D213B9C96}|Assembly-CSharp.csproj|d:\\navmeshunitychan\\assets\\scripts\\core\\canvasgroupextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AB6E5B1D-CE34-1114-58F5-BE3D213B9C96}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\core\\canvasgroupextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{AB6E5B1D-CE34-1114-58F5-BE3D213B9C96}|Assembly-CSharp.csproj|D:\\NavMeshUnityChan\\assets\\scripts\\ui\\uisetting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AB6E5B1D-CE34-1114-58F5-BE3D213B9C96}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\uisetting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{AB6E5B1D-CE34-1114-58F5-BE3D213B9C96}|Assembly-CSharp.csproj|d:\\navmeshunitychan\\assets\\scripts\\ui\\musicslider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB6E5B1D-CE34-1114-58F5-BE3D213B9C96}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\musicslider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB6E5B1D-CE34-1114-58F5-BE3D213B9C96}|Assembly-CSharp.csproj|D:\\NavMeshUnityChan\\assets\\scripts\\core\\canvasgroupextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB6E5B1D-CE34-1114-58F5-BE3D213B9C96}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\core\\canvasgroupextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{AB6E5B1D-CE34-1114-58F5-BE3D213B9C96}|Assembly-CSharp.csproj|D:\\NavMeshUnityChan\\assets\\scripts\\ui\\fpsdisplay.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AB6E5B1D-CE34-1114-58F5-BE3D213B9C96}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\fpsdisplay.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AB6E5B1D-CE34-1114-58F5-BE3D213B9C96}|Assembly-CSharp.csproj|D:\\NavMeshUnityChan\\assets\\scripts\\objectpool\\unitychanobjectpool.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AB6E5B1D-CE34-1114-58F5-BE3D213B9C96}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\objectpool\\unitychanobjectpool.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AB6E5B1D-CE34-1114-58F5-BE3D213B9C96}|Assembly-CSharp.csproj|D:\\NavMeshUnityChan\\assets\\scripts\\ui\\uimainfunction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AB6E5B1D-CE34-1114-58F5-BE3D213B9C96}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\uimainfunction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AB6E5B1D-CE34-1114-58F5-BE3D213B9C96}|Assembly-CSharp.csproj|D:\\NavMeshUnityChan\\assets\\scripts\\core\\dontdestorygameobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AB6E5B1D-CE34-1114-58F5-BE3D213B9C96}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\core\\dontdestorygameobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AB6E5B1D-CE34-1114-58F5-BE3D213B9C96}|Assembly-CSharp.csproj|D:\\NavMeshUnityChan\\assets\\scripts\\control\\inputcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -47,20 +35,8 @@
       "RelativeMoniker": "D:0:0:{AB6E5B1D-CE34-1114-58F5-BE3D213B9C96}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\manager\\cameracontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4327C321-F221-6FED-C758-9BB33096CF5A}|Assembly-CSharp-Editor.csproj|D:\\NavMeshUnityChan\\assets\\editor\\waypoint\\waypointmanagerwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4327C321-F221-6FED-C758-9BB33096CF5A}|Assembly-CSharp-Editor.csproj|solutionrelative:assets\\editor\\waypoint\\waypointmanagerwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4327C321-F221-6FED-C758-9BB33096CF5A}|Assembly-CSharp-Editor.csproj|D:\\NavMeshUnityChan\\assets\\editor\\waypoint\\waypointeditor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4327C321-F221-6FED-C758-9BB33096CF5A}|Assembly-CSharp-Editor.csproj|solutionrelative:assets\\editor\\waypoint\\waypointeditor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{AB6E5B1D-CE34-1114-58F5-BE3D213B9C96}|Assembly-CSharp.csproj|D:\\NavMeshUnityChan\\assets\\scripts\\core\\screenrotate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AB6E5B1D-CE34-1114-58F5-BE3D213B9C96}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\core\\screenrotate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4327C321-F221-6FED-C758-9BB33096CF5A}|Assembly-CSharp-Editor.csproj|D:\\NavMeshUnityChan\\assets\\editor\\folder\\createfoldertool.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4327C321-F221-6FED-C758-9BB33096CF5A}|Assembly-CSharp-Editor.csproj|solutionrelative:assets\\editor\\folder\\createfoldertool.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4327C321-F221-6FED-C758-9BB33096CF5A}|Assembly-CSharp-Editor.csproj|D:\\NavMeshUnityChan\\assets\\editor\\afterbakeslight\\meshrendererafterbakedlighteditor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -82,7 +58,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -98,20 +74,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "MusicSlider.cs",
               "DocumentMoniker": "D:\\NavMeshUnityChan\\Assets\\Scripts\\UI\\MusicSlider.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\MusicSlider.cs",
               "ToolTip": "D:\\NavMeshUnityChan\\Assets\\Scripts\\UI\\MusicSlider.cs",
               "RelativeToolTip": "Assets\\Scripts\\UI\\MusicSlider.cs",
-              "ViewState": "AQIAAAUAAAAAAAAAAAAUwCMAAAAlAAAA",
+              "ViewState": "AQIAACAAAAAAAAAAAABZwCMAAAAlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-08T09:52:29.465Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "CanvasGroupExtension.cs",
               "DocumentMoniker": "D:\\NavMeshUnityChan\\Assets\\Scripts\\Core\\CanvasGroupExtension.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Core\\CanvasGroupExtension.cs",
@@ -119,96 +95,24 @@
               "RelativeToolTip": "Assets\\Scripts\\Core\\CanvasGroupExtension.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-08T08:11:41.006Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-08T08:11:41.006Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "UISetting.cs",
               "DocumentMoniker": "D:\\NavMeshUnityChan\\Assets\\Scripts\\UI\\UISetting.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\UISetting.cs",
               "ToolTip": "D:\\NavMeshUnityChan\\Assets\\Scripts\\UI\\UISetting.cs",
               "RelativeToolTip": "Assets\\Scripts\\UI\\UISetting.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAABVwBAAAAALAAAA",
+              "ViewState": "AQIAAEUAAAAAAAAAAIA1wFEAAAArAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-08T03:08:25.783Z"
+              "WhenOpened": "2024-05-08T03:08:25.783Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "UnityChanObjectPool.cs",
-              "DocumentMoniker": "D:\\NavMeshUnityChan\\Assets\\Scripts\\ObjectPool\\UnityChanObjectPool.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\ObjectPool\\UnityChanObjectPool.cs",
-              "ToolTip": "D:\\NavMeshUnityChan\\Assets\\Scripts\\ObjectPool\\UnityChanObjectPool.cs",
-              "RelativeToolTip": "Assets\\Scripts\\ObjectPool\\UnityChanObjectPool.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAASAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-08T02:58:21.137Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "UIMainFunction.cs",
-              "DocumentMoniker": "D:\\NavMeshUnityChan\\Assets\\Scripts\\UI\\UIMainFunction.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\UIMainFunction.cs",
-              "ToolTip": "D:\\NavMeshUnityChan\\Assets\\Scripts\\UI\\UIMainFunction.cs",
-              "RelativeToolTip": "Assets\\Scripts\\UI\\UIMainFunction.cs",
-              "ViewState": "AQIAAHwAAAAAAAAAAABVwH8AAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-07T03:50:50.354Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "DontDestoryGameObject.cs",
-              "DocumentMoniker": "D:\\NavMeshUnityChan\\Assets\\Scripts\\Core\\DontDestoryGameObject.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Core\\DontDestoryGameObject.cs",
-              "ToolTip": "D:\\NavMeshUnityChan\\Assets\\Scripts\\Core\\DontDestoryGameObject.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Core\\DontDestoryGameObject.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-07T02:41:22.929Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "CreateFolderTool.cs",
-              "DocumentMoniker": "D:\\NavMeshUnityChan\\Assets\\Editor\\Folder\\CreateFolderTool.cs",
-              "RelativeDocumentMoniker": "Assets\\Editor\\Folder\\CreateFolderTool.cs",
-              "ToolTip": "D:\\NavMeshUnityChan\\Assets\\Editor\\Folder\\CreateFolderTool.cs",
-              "RelativeToolTip": "Assets\\Editor\\Folder\\CreateFolderTool.cs",
-              "ViewState": "AQIAAAoAAAAAAAAAAAA0wBgAAAAEAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-06T08:37:23.523Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "WaypointEditor.cs",
-              "DocumentMoniker": "D:\\NavMeshUnityChan\\Assets\\Editor\\Waypoint\\WaypointEditor.cs",
-              "RelativeDocumentMoniker": "Assets\\Editor\\Waypoint\\WaypointEditor.cs",
-              "ToolTip": "D:\\NavMeshUnityChan\\Assets\\Editor\\Waypoint\\WaypointEditor.cs",
-              "RelativeToolTip": "Assets\\Editor\\Waypoint\\WaypointEditor.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAADwvwcAAABQAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-06T08:36:58.102Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "WaypointManagerWindow.cs",
-              "DocumentMoniker": "D:\\NavMeshUnityChan\\Assets\\Editor\\Waypoint\\WaypointManagerWindow.cs",
-              "RelativeDocumentMoniker": "Assets\\Editor\\Waypoint\\WaypointManagerWindow.cs",
-              "ToolTip": "D:\\NavMeshUnityChan\\Assets\\Editor\\Waypoint\\WaypointManagerWindow.cs",
-              "RelativeToolTip": "Assets\\Editor\\Waypoint\\WaypointManagerWindow.cs",
-              "ViewState": "AQIAAGwAAAAAAAAAAAAqwCQAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-06T08:36:35.231Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 7,
               "Title": "CameraController.cs",
               "DocumentMoniker": "D:\\NavMeshUnityChan\\Assets\\Scripts\\Manager\\CameraController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Manager\\CameraController.cs",
@@ -220,7 +124,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 8,
               "Title": "ScreenRotate.cs",
               "DocumentMoniker": "D:\\NavMeshUnityChan\\Assets\\Scripts\\Core\\ScreenRotate.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Core\\ScreenRotate.cs",
@@ -244,7 +148,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 10,
               "Title": "Log.cs",
               "DocumentMoniker": "D:\\NavMeshUnityChan\\Assets\\Scripts\\Core\\Log.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Core\\Log.cs",
@@ -256,7 +160,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 4,
               "Title": "InputController.cs",
               "DocumentMoniker": "D:\\NavMeshUnityChan\\Assets\\Scripts\\Control\\InputController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Control\\InputController.cs",
@@ -268,7 +172,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 9,
               "Title": "MeshRendererAfterBakedLightEditor.cs",
               "DocumentMoniker": "D:\\NavMeshUnityChan\\Assets\\Editor\\AfterBakesLight\\MeshRendererAfterBakedLightEditor.cs",
               "RelativeDocumentMoniker": "Assets\\Editor\\AfterBakesLight\\MeshRendererAfterBakedLightEditor.cs",
@@ -280,7 +184,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 11,
               "Title": "scr_camera.cs",
               "DocumentMoniker": "D:\\NavMeshUnityChan\\Assets\\ThirdParty\\RDL\\Security_Pack\\Scripts\\scr_camera.cs",
               "RelativeDocumentMoniker": "Assets\\ThirdParty\\RDL\\Security_Pack\\Scripts\\scr_camera.cs",
@@ -292,7 +196,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 5,
               "Title": "SecurityCameraRotate.cs",
               "DocumentMoniker": "D:\\NavMeshUnityChan\\Assets\\Scripts\\SecurityCamera\\SecurityCameraRotate.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\SecurityCamera\\SecurityCameraRotate.cs",
@@ -304,7 +208,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 6,
               "Title": "CameraEditor.cs",
               "DocumentMoniker": "D:\\NavMeshUnityChan\\Assets\\Editor\\Camera\\CameraEditor.cs",
               "RelativeDocumentMoniker": "Assets\\Editor\\Camera\\CameraEditor.cs",
