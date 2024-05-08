@@ -90,6 +90,7 @@
     <Compile Include="Assets\ThirdParty\UI pack\Scripts\FillValueNumber.cs" />
     <Compile Include="Assets\Scripts\Enum\DirectionDefineEnum.cs" />
     <Compile Include="Assets\ThirdParty\StarterAssets\Mobile\Scripts\Utilities\MobileDisableAutoSwitchControls.cs" />
+    <Compile Include="Assets\Scripts\UI\UISetting.cs" />
     <Compile Include="Assets\ThirdParty\StarterAssets\FirstPersonController\Scripts\BasicRigidBodyPush.cs" />
     <Compile Include="Assets\Scripts\Core\Log.cs" />
     <Compile Include="Assets\Scripts\Control\InputController.cs" />

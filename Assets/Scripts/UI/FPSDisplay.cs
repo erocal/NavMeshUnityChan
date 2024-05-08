@@ -15,8 +15,6 @@ public class FPSDisplay : MonoBehaviour
     #region -- 變數參考區 --
 
     float deltaTime = 0.0f;
-    float fps = 0.0f;
-    float msec = 0.0f;
 
     #endregion
 
