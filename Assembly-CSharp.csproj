@@ -60,12 +60,14 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\SecurityCamera\SecurityCameraRotate.cs" />
     <Compile Include="Assets\ThirdParty\unity-chan!\Unity-chan! Model\Scripts\FaceUpdate.cs" />
+    <Compile Include="Assets\Scripts\UI\UIMainFunction.cs" />
     <Compile Include="Assets\Scripts\Control\UnityChanController.cs" />
     <Compile Include="Assets\Scripts\Waypoint\Waypoint.cs" />
     <Compile Include="Assets\Scripts\ObjectPool\UnityChanObjectPool.cs" />
     <Compile Include="Assets\ThirdParty\unity-chan!\Unity-chan! Model\Scripts\SpringCollider.cs" />
     <Compile Include="Assets\ThirdParty\unity-chan!\Unity-chan! Model\SplashScreen\Scripts\SplashScreen.cs" />
     <Compile Include="Assets\Scripts\Core\ScreenRotate.cs" />
+    <Compile Include="Assets\Scripts\Core\DontDestoryGameObject.cs" />
     <Compile Include="Assets\Scripts\UI\FPSDisplay.cs" />
     <Compile Include="Assets\TutorialInfo\Scripts\Readme.cs" />
     <Compile Include="Assets\Scripts\Waypoint\WaypointNavigator.cs" />
