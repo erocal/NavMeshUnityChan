@@ -85,7 +85,7 @@ Shader "UI/Unlit/MusicSlider"
                 OUT.worldPosition = v.vertex;
                 OUT.vertex = UnityObjectToClipPos(OUT.worldPosition);
 
-                OUT.texcoord = TRANSFORM_TEX(v.texcoord, _MainTex);
+                OUT.texcoord = TRANSFORM_TEX(float2(v.texcoord.x, v.texcoord.y / 2), _MainTex);
 
                 OUT.color = v.color * _Color;
                 return OUT;
@@ -93,7 +93,7 @@ Shader "UI/Unlit/MusicSlider"
 
             fixed4 frag(v2f IN) : SV_Target
             {
-                half4 color = (tex2D(_MainTex, IN.texcoord) + _TextureSampleAdd);
+                half4 color = (tex2D(_MainTex, float2(IN.texcoord.x, IN.texcoord.y + .25f)) + _TextureSampleAdd);
 
                 color = IN.texcoord.x > (_Slider * _MainTex_ST.x) ? color : color * IN.color;
 

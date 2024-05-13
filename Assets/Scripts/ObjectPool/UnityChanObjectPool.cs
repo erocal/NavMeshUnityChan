@@ -23,7 +23,7 @@ public class UnityChanObjectPool : MonoBehaviour
     private Queue<GameObject> unityChanObjectPool = new Queue<GameObject>();
 
     [Tooltip("活動中的UnityChan!")]
-    private Queue<GameObject> activeUnityChanPool = new Queue<GameObject>();
+    protected static List<GameObject> activeUnityChanPool = new List<GameObject>();
 
     #endregion
 
@@ -58,19 +58,20 @@ public class UnityChanObjectPool : MonoBehaviour
             reuse.transform.rotation = rotation;
             reuse.SetActive(true);
             reuse.GetComponent<WaypointNavigator>().Awake();
-            activeUnityChanPool.Enqueue(reuse);
+            activeUnityChanPool.Add(reuse);
         }
         else
         {
             GameObject go = Instantiate(unityChan, this.transform);
             go.transform.position = position;
             go.transform.rotation = rotation;
-            activeUnityChanPool.Enqueue(go);
+            activeUnityChanPool.Add(go);
         }
     }
 
     public void Recovery(GameObject recovery)
     {
+        activeUnityChanPool.Remove(recovery);
         unityChanObjectPool.Enqueue(recovery);
         recovery.SetActive(false);
     }
@@ -86,7 +87,7 @@ public class UnityChanObjectPool : MonoBehaviour
 
     public void OnRemoveCharacter()
     {
-        if (activeUnityChanPool.Count > 0) Recovery(activeUnityChanPool.Dequeue());
+        if (activeUnityChanPool.Count > 0) Recovery(activeUnityChanPool[activeUnityChanPool.Count - 1]);
     }
 
     #endregion

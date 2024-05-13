@@ -6,16 +6,16 @@ public class CameraController : MonoBehaviour
 
     #region -- 資源參考區 --
 
-    [SerializeField, Tooltip("俯視相機")] private Camera topViewCamera;
+    [SerializeField, Tooltip("俯視相機")] public Camera topViewCamera;
     [SerializeField, Tooltip("從上方俯視位置")] private Transform topView;
     [Header("監視器")]
-    [SerializeField, Tooltip("監視器相機列表")] private List<Camera> securityCameraList;
+    [SerializeField, Tooltip("監視器相機列表")] public List<Camera> securityCameraList;
 
     #endregion
 
     #region -- 變數參考區 --
 
-    private int curCameraId = 0;
+    public int curCameraId { get; private set; } = -1;
 
     #endregion
 
@@ -59,6 +59,8 @@ public class CameraController : MonoBehaviour
         topViewCamera.enabled = true;
         topViewCamera.depth = 0;
 
+        curCameraId = -1;
+
         foreach (Camera camera in securityCameraList)
         {
             if (camera.enabled)
@@ -76,12 +78,13 @@ public class CameraController : MonoBehaviour
         topViewCamera.enabled = false;
         topViewCamera.depth = -1;
 
-        if(securityCameraList.Count == curCameraId) curCameraId = 0;
+        if (curCameraId == -1) curCameraId = 0;
 
         securityCameraList[curCameraId].depth = 0;
         securityCameraList[curCameraId].enabled = true;
 
         curCameraId++;
+        if (securityCameraList.Count <= curCameraId) curCameraId = 0;
 
     }
 

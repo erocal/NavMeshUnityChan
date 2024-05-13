@@ -59,10 +59,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\SecurityCamera\SecurityCameraRotate.cs" />
+    <Compile Include="Assets\Scripts\Helper\ObjectPoolHelper.cs" />
     <Compile Include="Assets\Scripts\Core\CanvasGroupExtension.cs" />
     <Compile Include="Assets\ThirdParty\unity-chan!\Unity-chan! Model\Scripts\FaceUpdate.cs" />
     <Compile Include="Assets\Scripts\UI\UIMainFunction.cs" />
-    <Compile Include="Assets\Scripts\UI\MusicSlider.cs" />
     <Compile Include="Assets\Scripts\Control\UnityChanController.cs" />
     <Compile Include="Assets\Scripts\Waypoint\Waypoint.cs" />
     <Compile Include="Assets\Scripts\ObjectPool\UnityChanObjectPool.cs" />
@@ -73,6 +73,7 @@
     <Compile Include="Assets\Scripts\UI\FPSDisplay.cs" />
     <Compile Include="Assets\TutorialInfo\Scripts\Readme.cs" />
     <Compile Include="Assets\Scripts\Waypoint\WaypointNavigator.cs" />
+    <Compile Include="Assets\Scripts\Core\AudioManager.cs" />
     <Compile Include="Assets\ThirdParty\StarterAssets\Mobile\Scripts\CanvasInputs\UICanvasControllerInput.cs" />
     <Compile Include="Assets\ThirdParty\StarterAssets\Mobile\Scripts\VirtualInputs\UIVirtualTouchZone.cs" />
     <Compile Include="Assets\ThirdParty\StarterAssets\FirstPersonController\Scripts\FirstPersonController.cs" />
@@ -86,15 +87,18 @@
     <Compile Include="Assets\ThirdParty\StarterAssets\Mobile\Scripts\VirtualInputs\UIVirtualJoystick.cs" />
     <Compile Include="Assets\ThirdParty\unity-chan!\Unity-chan! Model\Scripts\IdleChanger.cs" />
     <Compile Include="Assets\ThirdParty\unity-chan!\Unity-chan! Model\Scripts\CameraController.cs" />
+    <Compile Include="Assets\Scripts\UI\UICurrentUnityChan.cs" />
     <Compile Include="Assets\ThirdParty\unity-chan!\Unity-chan! Model\Scripts\AutoBlink.cs" />
     <Compile Include="Assets\ThirdParty\unity-chan!\Unity-chan! Model\Scripts\UnityChanControlScriptWithRgidBody.cs" />
     <Compile Include="Assets\ThirdParty\unity-chan!\Unity-chan! Model\Scripts\RandomWind.cs" />
+    <Compile Include="Assets\Scripts\UI\UIObservingCurrentlyUnityChan.cs" />
     <Compile Include="Assets\ThirdParty\UI pack\Scripts\FillValueNumber.cs" />
     <Compile Include="Assets\Scripts\Enum\DirectionDefineEnum.cs" />
     <Compile Include="Assets\ThirdParty\StarterAssets\Mobile\Scripts\Utilities\MobileDisableAutoSwitchControls.cs" />
     <Compile Include="Assets\Scripts\UI\UISetting.cs" />
     <Compile Include="Assets\ThirdParty\StarterAssets\FirstPersonController\Scripts\BasicRigidBodyPush.cs" />
     <Compile Include="Assets\Scripts\Core\Log.cs" />
+    <Compile Include="Assets\Scripts\UI\MusicGroup.cs" />
     <Compile Include="Assets\Scripts\Control\InputController.cs" />
     <Compile Include="Assets\Scripts\Manager\CameraController.cs" />
     <Compile Include="Assets\ThirdParty\unity-chan!\Unity-chan! Model\Scripts\ThirdPersonCamera.cs" />
