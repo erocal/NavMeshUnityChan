@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "D:\\NavMeshUnityChan\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{4327C321-F221-6FED-C758-9BB33096CF5A}|Assembly-CSharp-Editor.csproj|D:\\NavMeshUnityChan\\assets\\editor\\camera\\cameraeditor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4327C321-F221-6FED-C758-9BB33096CF5A}|Assembly-CSharp-Editor.csproj|solutionrelative:assets\\editor\\camera\\cameraeditor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{AB6E5B1D-CE34-1114-58F5-BE3D213B9C96}|Assembly-CSharp.csproj|d:\\navmeshunitychan\\assets\\scripts\\ui\\uiobservingcurrentlyunitychan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AB6E5B1D-CE34-1114-58F5-BE3D213B9C96}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\uiobservingcurrentlyunitychan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -51,10 +55,6 @@
       "RelativeMoniker": "D:0:0:{AB6E5B1D-CE34-1114-58F5-BE3D213B9C96}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\securitycamera\\securitycamerarotate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4327C321-F221-6FED-C758-9BB33096CF5A}|Assembly-CSharp-Editor.csproj|D:\\NavMeshUnityChan\\assets\\editor\\camera\\cameraeditor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4327C321-F221-6FED-C758-9BB33096CF5A}|Assembly-CSharp-Editor.csproj|solutionrelative:assets\\editor\\camera\\cameraeditor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{4327C321-F221-6FED-C758-9BB33096CF5A}|Assembly-CSharp-Editor.csproj|D:\\NavMeshUnityChan\\assets\\editor\\afterbakeslight\\meshrendererafterbakedlighteditor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4327C321-F221-6FED-C758-9BB33096CF5A}|Assembly-CSharp-Editor.csproj|solutionrelative:assets\\editor\\afterbakeslight\\meshrendererafterbakedlighteditor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -74,7 +74,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 18,
           "Children": [
             {
               "$type": "Bookmark",
@@ -90,20 +90,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "UIObservingCurrentlyUnityChan.cs",
               "DocumentMoniker": "D:\\NavMeshUnityChan\\Assets\\Scripts\\UI\\UIObservingCurrentlyUnityChan.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\UIObservingCurrentlyUnityChan.cs",
               "ToolTip": "D:\\NavMeshUnityChan\\Assets\\Scripts\\UI\\UIObservingCurrentlyUnityChan.cs",
               "RelativeToolTip": "Assets\\Scripts\\UI\\UIObservingCurrentlyUnityChan.cs",
-              "ViewState": "AQIAABMAAAAAAAAAAAAxwDIAAAAFAAAA",
+              "ViewState": "AQIAABkAAAAAAAAAAABZwBwAAAAmAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-09T08:56:13.227Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "UICurrentUnityChan.cs",
               "DocumentMoniker": "D:\\NavMeshUnityChan\\Assets\\Scripts\\UI\\UICurrentUnityChan.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\UICurrentUnityChan.cs",
@@ -115,7 +115,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "UnityChanObjectPool.cs",
               "DocumentMoniker": "D:\\NavMeshUnityChan\\Assets\\Scripts\\ObjectPool\\UnityChanObjectPool.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\ObjectPool\\UnityChanObjectPool.cs",
@@ -127,7 +127,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "MusicGroup.cs",
               "DocumentMoniker": "D:\\NavMeshUnityChan\\Assets\\Scripts\\UI\\MusicGroup.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\MusicGroup.cs",
@@ -139,7 +139,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "AudioManager.cs",
               "DocumentMoniker": "D:\\NavMeshUnityChan\\Assets\\Scripts\\Core\\AudioManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Core\\AudioManager.cs",
@@ -151,7 +151,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "CanvasGroupExtension.cs",
               "DocumentMoniker": "D:\\NavMeshUnityChan\\Assets\\Scripts\\Core\\CanvasGroupExtension.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Core\\CanvasGroupExtension.cs",
@@ -163,7 +163,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "UISetting.cs",
               "DocumentMoniker": "D:\\NavMeshUnityChan\\Assets\\Scripts\\UI\\UISetting.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\UISetting.cs",
@@ -175,7 +175,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "CameraController.cs",
               "DocumentMoniker": "D:\\NavMeshUnityChan\\Assets\\Scripts\\Manager\\CameraController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Manager\\CameraController.cs",
@@ -183,12 +183,11 @@
               "RelativeToolTip": "Assets\\Scripts\\Manager\\CameraController.cs",
               "ViewState": "AQIAABIAAAAAAAAAAADgv1YAAAAmAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-06T08:03:40.508Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-06T08:03:40.508Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "ScreenRotate.cs",
               "DocumentMoniker": "D:\\NavMeshUnityChan\\Assets\\Scripts\\Core\\ScreenRotate.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Core\\ScreenRotate.cs",
@@ -196,12 +195,11 @@
               "RelativeToolTip": "Assets\\Scripts\\Core\\ScreenRotate.cs",
               "ViewState": "AQIAAAUAAAAAAAAAAAAUwBYAAAAwAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-06T02:56:48.868Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-06T02:56:48.868Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "FPSDisplay.cs",
               "DocumentMoniker": "D:\\NavMeshUnityChan\\Assets\\Scripts\\UI\\FPSDisplay.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\FPSDisplay.cs",
@@ -225,7 +223,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "InputController.cs",
               "DocumentMoniker": "D:\\NavMeshUnityChan\\Assets\\Scripts\\Control\\InputController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Control\\InputController.cs",
@@ -261,7 +259,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "SecurityCameraRotate.cs",
               "DocumentMoniker": "D:\\NavMeshUnityChan\\Assets\\Scripts\\SecurityCamera\\SecurityCameraRotate.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\SecurityCamera\\SecurityCameraRotate.cs",
@@ -273,15 +271,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 0,
               "Title": "CameraEditor.cs",
               "DocumentMoniker": "D:\\NavMeshUnityChan\\Assets\\Editor\\Camera\\CameraEditor.cs",
               "RelativeDocumentMoniker": "Assets\\Editor\\Camera\\CameraEditor.cs",
               "ToolTip": "D:\\NavMeshUnityChan\\Assets\\Editor\\Camera\\CameraEditor.cs",
               "RelativeToolTip": "Assets\\Editor\\Camera\\CameraEditor.cs",
-              "ViewState": "AQIAAC8AAAAAAAAAAAA1wDsAAAAkAAAA",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAwwEIAAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-06T08:37:49.472Z"
+              "WhenOpened": "2024-05-06T08:37:49.472Z",
+              "EditorCaption": ""
             }
           ]
         }

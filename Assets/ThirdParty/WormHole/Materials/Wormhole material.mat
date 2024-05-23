@@ -102,7 +102,7 @@ Material:
     - _QueueOffset: 0
     - _Time_multiplier: 1
     - _Twist_frequency: 1
-    - _Twist_magnitude: 0
+    - _Twist_magnitude: 17.83
     - _Twist_speed: 2
     - _USE_DETAILS_1: 1
     - _USE_DETAILS_2: 1
@@ -110,7 +110,7 @@ Material:
     m_Colors:
     - _Colour: {r: 0.34117648, g: 0.854902, b: 0.9176471, a: 1}
     - _Details_1_colour: {r: 22.627417, g: 0.79861474, b: 0.79861474, a: 1}
-    - _Details_1_tiling: {r: 1, g: 0.25, b: 0, a: 0}
+    - _Details_1_tiling: {r: 5.52, g: 0.01, b: 0, a: 0}
     - _Details_2_colour: {r: 15.497374, g: 15.497374, b: 15.497374, a: 1}
     - _Details_2_tiling: {r: 1, g: 1, b: 0, a: 0}
     - _Details_colour: {r: 0.7924528, g: 0.20558919, b: 0.20558919, a: 1}

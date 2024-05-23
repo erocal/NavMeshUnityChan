@@ -60,10 +60,17 @@ public class CameraEditor : EditorWindow
                 if (cam != uiCamera)
                 {
                     List<Camera> cameraStack = cam.GetUniversalAdditionalCameraData().cameraStack;
-                    if (!cameraStack.Contains(uiCamera)) cameraStack.Add(uiCamera);
+                    if (!cameraStack.Contains(uiCamera))
+                    {
+                        cameraStack.Add(uiCamera);
+                        EditorUtility.SetDirty(cam);
+                    }
                 }
             }
         }
+
+        AssetDatabase.SaveAssets();
+        AssetDatabase.Refresh();
 
         Log.Info("UI相機加入完成");
 
